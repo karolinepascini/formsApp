@@ -1,12 +1,12 @@
 <ion-header>
-  <ion-toolbar>
+  <ion-toolbar color="principal" class="login">
     <ion-title>login</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content color="fundo">
 
-  <div>
+  <div class="es">
     <ion-card>
       <ion-item>
         <ion-label position="floating">Email</ion-label>
@@ -20,5 +20,12 @@
     </ion-item>
   </ion-card>
   </div>
+
+  <div >
+  <ion-button class="regis" routerLink="/registro" color="principal">Registrar</ion-button>
+  <ion-button class="bv" routerLink="/tabs/tab1" color="principal">Entrar</ion-button>
+</div>
+
+  <ion-button fill="clear" expand="block" color="principal">Esqueci minha senha</ion-button>
 
 </ion-content>
