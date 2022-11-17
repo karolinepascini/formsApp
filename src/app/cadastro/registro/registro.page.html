@@ -1,9 +1,45 @@
 <ion-header>
-  <ion-toolbar>
-    <ion-title>registro</ion-title>
+  <ion-toolbar color="principal" class="login">
+    <ion-title>Registrar</ion-title>
   </ion-toolbar>
 </ion-header>
 
-<ion-content>
+<ion-content color="fundo">
+
+  <div>
+    <ion-card class="es">
+      <ion-item class="reg">
+        <ion-label position="floating">Nome</ion-label>
+        <ion-input placeholder="Inserir Nome"></ion-input>
+      </ion-item>
+
+
+    <ion-item class="esp">
+      <ion-label position="floating">CPF</ion-label>
+      <ion-input placeholder="Inserir Cpf"></ion-input>
+    </ion-item>
+
+    <ion-item class="pse">
+      <ion-label position="floating">Email</ion-label>
+      <ion-input placeholder="Inserir Email"></ion-input>
+    </ion-item>
+
+    <ion-item class="sep">
+      <ion-label position="floating">Senha</ion-label>
+      <ion-input placeholder="password"></ion-input>
+    </ion-item>
+
+    <ion-item class="ger">
+      <ion-label position="floating">Confirmar senha</ion-label>
+      <ion-input placeholder="password"></ion-input>
+    </ion-item>
+  </ion-card>
+  </div>
+
+  <div >
+  <ion-button class="regis" routerLink="/tabs/tab1" color="principal">Salvar</ion-button>
+  <ion-button class="bv" routerLink="/login" color="principal">Voltar</ion-button>
+</div>
+
 
 </ion-content>
