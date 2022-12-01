@@ -9,14 +9,6 @@ const routes: Routes = [
   {
     path: '',
     component: LoginPage
-  },
-  {
-    path: 'registro',
-    component: RegistroPage
-  },
-  {
-    path: 'tabs/tab1',
-    component: Tab1Page
   }
 ];
 
